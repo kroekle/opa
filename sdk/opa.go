@@ -219,10 +219,9 @@ func (opa *OPA) Partial(ctx context.Context, options PartialOptions) (*DecisionR
 	record := server.Info{
 		DecisionID: result.ID,
 		Timestamp:  options.Now,
-		//		Path:       options.Path,
-		Input:   &options.Input,
-		Query:   options.Query,
-		Metrics: m,
+		Input:      &options.Input,
+		Query:      options.Query,
+		Metrics:    m,
 	}
 
 	if record.Timestamp.IsZero() {
@@ -244,9 +243,9 @@ func (opa *OPA) Partial(ctx context.Context, options PartialOptions) (*DecisionR
 			txn:      record.Txn,
 			now:      record.Timestamp,
 			query:    record.Query,
-			// path:            record.Path,
-			input: *record.Input,
-			m:     record.Metrics,
+			unknowns: options.Unknowns,
+			input:    *record.Input,
+			m:        record.Metrics,
 		})
 		if record.Error == nil {
 			record.Results = &result.Result
@@ -336,8 +335,8 @@ type DecisionOptions struct {
 
 // PartialOptions contains parameters for partial query evaluation.
 type PartialOptions struct {
-	Now time.Time // specifies wallclock time used for time.now_ns(), decision log timestamp, etc.
-	//	Path  		string      // specifies name of policy decision to evaluate (e.g., example/allow)
+	Now      time.Time   // specifies wallclock time used for time.now_ns(), decision log timestamp, etc.
+	Path     string      // specifies name of policy decision to evaluate (e.g., example/allow)
 	Input    interface{} // specifies value of the input document to evaluate policy with
 	Query    string
 	Unknowns []string // specifies the unknown elements of the query
@@ -456,13 +455,11 @@ type partialEvalArgs struct {
 	compiler *ast.Compiler
 	store    storage.Store
 	txn      storage.Transaction
+	unknowns []string
 	query    string
-	//	queryCache      *queryCache
-	//	interQueryCache cache.InterQueryCache
-	now time.Time
-	//	path            string
-	input interface{}
-	m     metrics.Metrics
+	now      time.Time
+	input    interface{}
+	m        metrics.Metrics
 }
 
 func partial(ctx context.Context, args partialEvalArgs) (interface{}, ast.Value, map[string]server.BundleInfo, error) {
@@ -472,11 +469,6 @@ func partial(ctx context.Context, args partialEvalArgs) (interface{}, ast.Value,
 		return nil, nil, nil, err
 	}
 
-	// r, err := ref.ParseDataPath(args.path)
-	// if err != nil {
-	// 	return nil, nil, bundles, err
-	// }
-
 	inputAST, err := ast.InterfaceToValue(args.input)
 	if err != nil {
 		return nil, nil, bundles, err
@@ -484,13 +476,12 @@ func partial(ctx context.Context, args partialEvalArgs) (interface{}, ast.Value,
 	re := rego.New(
 		rego.Time(args.now),
 		rego.Metrics(args.m),
-		// rego.Query(query),
-		//			rego.Compiler(args.compiler),
 		rego.Store(args.store),
 		rego.Transaction(args.txn),
 		rego.Runtime(args.runtime),
 		rego.ParsedInput(inputAST),
 		rego.Query(args.query),
+		rego.Unknowns(args.unknowns),
 	)
 
 	pq, err := re.Partial(ctx)
