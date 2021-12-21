@@ -5,7 +5,7 @@
 package topdown
 
 import (
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func evalWalk(_ BuiltinContext, args []*ast.Term, iter func(*ast.Term) error) error {

@@ -13,14 +13,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/loader"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/util/test"
 )
 
 type testErrorWithMarshaller struct {

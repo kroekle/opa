@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
 )
 
 func builtinJSONRemove(_ BuiltinContext, operands []*ast.Term, iter func(*ast.Term) error) error {

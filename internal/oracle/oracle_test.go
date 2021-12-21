@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func TestOracleFindDefinitionErrors(t *testing.T) {

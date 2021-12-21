@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/plugins/rest"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/plugins/rest"
 )
 
 func TestStartStop(t *testing.T) {

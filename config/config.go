@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/ref"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/ref"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 // Config represents the configuration file that OPA can be started with.

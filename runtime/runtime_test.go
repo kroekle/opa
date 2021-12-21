@@ -19,14 +19,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/report"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/server"
+	"github.com/kroekle/opa/internal/report"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/server"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestWatchPaths(t *testing.T) {

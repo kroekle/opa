@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/server/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/server/types"
 )
 
 const (

@@ -14,11 +14,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/bundle"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/plugins/bundle"
+	"github.com/kroekle/opa/util"
 )
 
 // Logger defines the interface for status plugins.

@@ -15,9 +15,9 @@ import (
 
 	ghodss "github.com/ghodss/yaml"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/util"
 )
 
 func builtinJSONMarshal(a ast.Value) (ast.Value, error) {

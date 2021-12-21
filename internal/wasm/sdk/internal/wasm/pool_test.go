@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/compile"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/internal/wasm"
-	wasm_util "github.com/open-policy-agent/opa/internal/wasm/util"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/compile"
+	"github.com/kroekle/opa/internal/wasm/sdk/internal/wasm"
+	wasm_util "github.com/kroekle/opa/internal/wasm/util"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/util"
 )
 
 func TestOpaEvalGrowMemoryForLargeInput(t *testing.T) {

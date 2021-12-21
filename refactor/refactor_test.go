@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func TestMoveRenamePackage(t *testing.T) {

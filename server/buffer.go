@@ -7,10 +7,10 @@ package server
 import (
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/topdown"
 )
 
 // Info contains information describing a policy decision.

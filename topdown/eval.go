@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/copypropagation"
-	"github.com/open-policy-agent/opa/topdown/print"
-	"github.com/open-policy-agent/opa/tracing"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/topdown/copypropagation"
+	"github.com/kroekle/opa/topdown/print"
+	"github.com/kroekle/opa/tracing"
 )
 
 type evalIterator func(*eval) error

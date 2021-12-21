@@ -35,9 +35,9 @@ evaluation.
 To get started you need to import three packages:
 
 ```
-import "github.com/open-policy-agent/opa/ast"
-import "github.com/open-policy-agent/opa/types"
-import "github.com/open-policy-agent/opa/rego"
+import "github.com/kroekle/opa/ast"
+import "github.com/kroekle/opa/types"
+import "github.com/kroekle/opa/rego"
 ```
 
 The `ast` and `types` packages contain the types for declarations and runtime
@@ -218,7 +218,7 @@ that writes events to a stream (e.g., stdout/stderr).
 import (
 	"encoding/json"
 
-	"github.com/open-policy-agent/opa/plugins/logs"
+	"github.com/kroekle/opa/plugins/logs"
 )
 
 const PluginName = "println_decision_logger"
@@ -275,8 +275,8 @@ Next, implement a factory function that instantiates your plugin:
 
 ```golang
 import (
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/util"
 )
 
 type Factory struct{}
@@ -302,8 +302,8 @@ latter starts OPA and does not return.
 
 ```golang
 import (
-	"github.com/open-policy-agent/opa/cmd"
-	"github.com/open-policy-agent/opa/runtime"
+	"github.com/kroekle/opa/cmd"
+	"github.com/kroekle/opa/runtime"
 )
 
 func main() {
@@ -391,9 +391,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/types"
 )
 
 func main() {
@@ -464,10 +464,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cmd"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/cmd"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/types"
 
 )
 

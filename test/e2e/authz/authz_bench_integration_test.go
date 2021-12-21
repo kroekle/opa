@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/test/authz"
-	testAuthz "github.com/open-policy-agent/opa/test/authz"
-	"github.com/open-policy-agent/opa/test/e2e"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/test/authz"
+	testAuthz "github.com/kroekle/opa/test/authz"
+	"github.com/kroekle/opa/test/e2e"
+	"github.com/kroekle/opa/util"
 )
 
 var testRuntime *e2e.TestRuntime

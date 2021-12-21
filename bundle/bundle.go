@@ -20,12 +20,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/internal/merge"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/format"
+	"github.com/kroekle/opa/internal/file/archive"
+	"github.com/kroekle/opa/internal/merge"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/util"
 )
 
 // Common file extensions and file names.

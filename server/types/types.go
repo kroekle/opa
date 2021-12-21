@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/util"
 )
 
 // Error codes returned by OPA's REST API.

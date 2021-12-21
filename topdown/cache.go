@@ -5,8 +5,8 @@
 package topdown
 
 import (
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/util"
 )
 
 type virtualCache struct {

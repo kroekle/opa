@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/open-policy-agent/opa/server/identifier"
+	"github.com/kroekle/opa/server/identifier"
 )
 
 type mockHandler struct {

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/runtime"
-	"github.com/open-policy-agent/opa/test/e2e"
+	"github.com/kroekle/opa/logging/test"
+	"github.com/kroekle/opa/runtime"
+	"github.com/kroekle/opa/test/e2e"
 )
 
 var testRuntime *e2e.TestRuntime

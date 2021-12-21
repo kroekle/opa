@@ -9,8 +9,8 @@ import (
 
 	"fmt"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
 )
 
 type arithArity1 func(a *big.Float) (*big.Float, error)

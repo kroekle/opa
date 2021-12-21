@@ -18,25 +18,25 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/kroekle/opa/storage"
 
-	"github.com/open-policy-agent/opa/rego"
+	"github.com/kroekle/opa/rego"
 
-	"github.com/open-policy-agent/opa/logging/test"
+	"github.com/kroekle/opa/logging/test"
 
-	"github.com/open-policy-agent/opa/ast"
-	bundleApi "github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/download"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/bundle"
-	"github.com/open-policy-agent/opa/plugins/logs"
-	"github.com/open-policy-agent/opa/plugins/status"
-	"github.com/open-policy-agent/opa/server"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/ast"
+	bundleApi "github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/download"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/plugins/bundle"
+	"github.com/kroekle/opa/plugins/logs"
+	"github.com/kroekle/opa/plugins/status"
+	"github.com/kroekle/opa/server"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 func TestMain(m *testing.M) {

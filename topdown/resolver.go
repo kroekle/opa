@@ -5,9 +5,9 @@
 package topdown
 
 import (
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/resolver"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/resolver"
 )
 
 type resolverTrie struct {

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/internal/deepcopy"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/internal/deepcopy"
+	"github.com/kroekle/opa/util"
 )
 
 type maskOP string

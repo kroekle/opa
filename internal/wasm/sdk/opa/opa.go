@@ -12,13 +12,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/internal/wasm"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa/errors"
-	sdk_errors "github.com/open-policy-agent/opa/internal/wasm/sdk/opa/errors"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/print"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/wasm/sdk/internal/wasm"
+	"github.com/kroekle/opa/internal/wasm/sdk/opa/errors"
+	sdk_errors "github.com/kroekle/opa/internal/wasm/sdk/opa/errors"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/topdown/print"
 )
 
 var errNotReady = errors.New(errors.NotReadyErr, "")

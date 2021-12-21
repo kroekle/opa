@@ -2,6 +2,7 @@
 // Use of this source code is governed by an Apache2
 // license that can be found in the LICENSE file.
 
+//go:build opa_wasm
 // +build opa_wasm
 
 package authz
@@ -16,16 +17,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/compile"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/test/authz"
-	testAuthz "github.com/open-policy-agent/opa/test/authz"
-	"github.com/open-policy-agent/opa/test/e2e"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/compile"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/test/authz"
+	testAuthz "github.com/kroekle/opa/test/authz"
+	"github.com/kroekle/opa/test/e2e"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/util/test"
 )
 
 var testRuntime *e2e.TestRuntime

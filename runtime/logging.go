@@ -17,9 +17,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/topdown/print"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/server/types"
+	"github.com/kroekle/opa/topdown/print"
 	"github.com/sirupsen/logrus"
 )
 

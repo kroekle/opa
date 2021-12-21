@@ -20,10 +20,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/test/cases"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/test/cases"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 type params struct {

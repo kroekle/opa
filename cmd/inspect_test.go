@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
+	"github.com/kroekle/opa/internal/file/archive"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestDoInspect(t *testing.T) {

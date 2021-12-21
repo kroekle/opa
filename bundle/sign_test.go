@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/util/test"
 
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws"
+	"github.com/kroekle/opa/internal/jwx/jwa"
+	"github.com/kroekle/opa/internal/jwx/jws"
 )
 
 func TestGenerateSignedToken(t *testing.T) {

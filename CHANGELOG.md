@@ -387,7 +387,7 @@ This release includes a number of documentation improvements:
 The `rego` package no longer relies on build constraints to enable the Wasm runtime. Instead, library users must opt-in to Wasm runtime support by adding an import statement in the Go code:
 
 ```go
-import _ "github.com/open-policy-agent/opa/features/wasm"
+import _ "github.com/kroekle/opa/features/wasm"
 ```
 
 This change ensures that (by default) the wasmtime-go blobs are not vendored in projects that embed OPA as a library. If you are currently relying on the Wasm runtime support in the `rego` package (via the `rego.Target("wasm")` option), please update you code to include the import above. See [#3545](https://github.com/open-policy-agent/opa/issues/3545) for more details.

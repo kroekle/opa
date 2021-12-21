@@ -7,8 +7,8 @@ package ast
 import (
 	"fmt"
 
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 // SchemaSet holds a map from a path to a schema.

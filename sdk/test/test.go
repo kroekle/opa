@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/compile"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/compile"
 )
 
 // MockBundle sets a bundle named file on the test server containing the given

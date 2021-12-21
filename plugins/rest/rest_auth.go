@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws"
-	"github.com/open-policy-agent/opa/internal/jwx/jws/sign"
-	"github.com/open-policy-agent/opa/internal/uuid"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/kroekle/opa/internal/jwx/jwa"
+	"github.com/kroekle/opa/internal/jwx/jws"
+	"github.com/kroekle/opa/internal/jwx/jws/sign"
+	"github.com/kroekle/opa/internal/uuid"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/logging"
 )
 
 const (

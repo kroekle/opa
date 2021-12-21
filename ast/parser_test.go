@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast/internal/tokens"
+	"github.com/kroekle/opa/ast/internal/tokens"
 )
 
 const (

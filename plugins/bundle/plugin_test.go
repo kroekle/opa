@@ -23,20 +23,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
+	"github.com/kroekle/opa/internal/file/archive"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/util/test"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/config"
-	"github.com/open-policy-agent/opa/download"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/config"
+	"github.com/kroekle/opa/download"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/util"
 )
 
 func TestPluginOneShot(t *testing.T) {

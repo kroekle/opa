@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 type varRewriter func(Ref) Ref

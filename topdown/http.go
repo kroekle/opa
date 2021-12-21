@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/tracing"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/version"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/tracing"
+	"github.com/kroekle/opa/util"
 )
 
 type cachingMode string

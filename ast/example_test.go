@@ -7,7 +7,7 @@ package ast_test
 import (
 	"fmt"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func ExampleCompiler_Compile() {

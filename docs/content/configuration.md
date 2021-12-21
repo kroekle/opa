@@ -610,10 +610,10 @@ plugins:
 package plugins
 
 import (
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/runtime"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/plugins/rest"
+	"github.com/kroekle/opa/runtime"
+	"github.com/kroekle/opa/util"
 )
 
 type Config struct {

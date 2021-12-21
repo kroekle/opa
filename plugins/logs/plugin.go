@@ -21,16 +21,16 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/time/rate"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/ref"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/server"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/ref"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/plugins/rest"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/server"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/util"
 )
 
 // Logger defines the interface for decision logging plugins.

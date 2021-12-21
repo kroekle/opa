@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/topdown"
 )
 
 func TestCover(t *testing.T) {

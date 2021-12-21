@@ -917,7 +917,7 @@ OPA as a library is to import the `github.com/open-policy-agent/opa/rego`
 package.
 
 ```golang
-import "github.com/open-policy-agent/opa/rego"
+import "github.com/kroekle/opa/rego"
 ```
 
 Call the `rego.New` function to create an object that can be prepared or
@@ -989,7 +989,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/open-policy-agent/opa/rego"
+	"github.com/kroekle/opa/rego"
 )
 
 func main() {

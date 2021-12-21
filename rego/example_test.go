@@ -14,15 +14,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/open-policy-agent/opa/storage/disk"
+	"github.com/kroekle/opa/storage/disk"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 func ExampleRego_Eval_simple() {

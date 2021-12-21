@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/logging"
-	test_sdk "github.com/open-policy-agent/opa/sdk/test"
-	"github.com/open-policy-agent/opa/test/e2e"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/logging"
+	test_sdk "github.com/kroekle/opa/sdk/test"
+	"github.com/kroekle/opa/test/e2e"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestEnablePrintStatementsForFilesystemPolicies(t *testing.T) {

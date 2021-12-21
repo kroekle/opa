@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 )
 
 func TestInvalidJSONInput(t *testing.T) {

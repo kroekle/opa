@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/util/test"
 
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/kroekle/opa/logging"
 )
 
 // this is usually private; but we need it here

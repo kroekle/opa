@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/util"
 )
 
 // All returns the list of data ast.Refs that the given AST element depends on.

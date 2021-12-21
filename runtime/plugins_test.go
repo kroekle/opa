@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/util/test"
 )
 
 type Tester struct {

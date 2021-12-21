@@ -2,6 +2,7 @@
 // Use of this source code is governed by an Apache2
 // license that can be found in the LICENSE file.
 
+//go:build wasm_sdk_e2e
 // +build wasm_sdk_e2e
 
 package e2e
@@ -19,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/test/cases"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/wasm/sdk/opa"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/test/cases"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 const opaRootDir = "../../../../../"

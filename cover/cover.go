@@ -10,8 +10,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown"
 )
 
 // Cover computes and reports on coverage.

@@ -16,19 +16,19 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/compiler/wasm"
-	"github.com/open-policy-agent/opa/internal/debug"
-	"github.com/open-policy-agent/opa/internal/ir"
-	"github.com/open-policy-agent/opa/internal/planner"
-	"github.com/open-policy-agent/opa/internal/ref"
-	initload "github.com/open-policy-agent/opa/internal/runtime/init"
-	"github.com/open-policy-agent/opa/internal/wasm/encoding"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/internal/compiler/wasm"
+	"github.com/kroekle/opa/internal/debug"
+	"github.com/kroekle/opa/internal/ir"
+	"github.com/kroekle/opa/internal/planner"
+	"github.com/kroekle/opa/internal/ref"
+	initload "github.com/kroekle/opa/internal/runtime/init"
+	"github.com/kroekle/opa/internal/wasm/encoding"
+	"github.com/kroekle/opa/loader"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
 )
 
 const (

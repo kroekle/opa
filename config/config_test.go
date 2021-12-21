@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 func TestConfigPluginNames(t *testing.T) {

@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/internal/file/archive"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestWriteTokenToFile(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/bundle"
-	ib "github.com/open-policy-agent/opa/internal/bundle/inspect"
-	pr "github.com/open-policy-agent/opa/internal/presentation"
-	iStrs "github.com/open-policy-agent/opa/internal/strings"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/bundle"
+	ib "github.com/kroekle/opa/internal/bundle/inspect"
+	pr "github.com/kroekle/opa/internal/presentation"
+	iStrs "github.com/kroekle/opa/internal/strings"
+	"github.com/kroekle/opa/util"
 
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"

@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/keys"
+	"github.com/kroekle/opa/keys"
 
-	"github.com/open-policy-agent/opa/bundle"
+	"github.com/kroekle/opa/bundle"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/download"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/download"
+	"github.com/kroekle/opa/util"
 )
 
 // Config represents the configuration for the discovery feature.

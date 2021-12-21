@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/types"
 )
 
 func TestProfilerLargeArray(t *testing.T) {

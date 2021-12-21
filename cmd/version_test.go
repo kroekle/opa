@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/report"
+	"github.com/kroekle/opa/internal/report"
 )
 
 func TestGenerateCmdOutputDisableCheckFlag(t *testing.T) {

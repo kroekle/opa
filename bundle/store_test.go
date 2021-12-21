@@ -7,15 +7,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
 
-	"github.com/open-policy-agent/opa/internal/storage/mock"
+	"github.com/kroekle/opa/internal/storage/mock"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
 )
 
 func TestManifestStoreLifecycleSingleBundle(t *testing.T) {

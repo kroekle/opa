@@ -10,8 +10,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
 )
 
 func Example_read() {

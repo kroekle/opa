@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 type testData struct {

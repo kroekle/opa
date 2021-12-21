@@ -30,13 +30,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws"
-	"github.com/open-policy-agent/opa/keys"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/internal/jwx/jwa"
+	"github.com/kroekle/opa/internal/jwx/jws"
+	"github.com/kroekle/opa/keys"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/internal/version"
+	"github.com/kroekle/opa/util/test"
 )
 
 const keyID = "key1"

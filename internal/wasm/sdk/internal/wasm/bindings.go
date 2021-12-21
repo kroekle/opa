@@ -18,12 +18,12 @@ import (
 
 	"github.com/bytecodealliance/wasmtime-go"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/print"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/topdown/cache"
+	"github.com/kroekle/opa/topdown/print"
 )
 
 func opaFunctions(dispatcher *builtinDispatcher, store *wasmtime.Store) map[string]wasmtime.AsExtern {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-policy-agent/opa/cmd"
+	"github.com/kroekle/opa/cmd"
 )
 
 func main() {

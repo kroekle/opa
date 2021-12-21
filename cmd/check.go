@@ -11,10 +11,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/ast"
-	pr "github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	pr "github.com/kroekle/opa/internal/presentation"
+	"github.com/kroekle/opa/loader"
+	"github.com/kroekle/opa/util"
 )
 
 var checkParams = struct {

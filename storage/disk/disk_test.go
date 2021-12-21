@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/util/test"
 )
 
 type testRead struct {

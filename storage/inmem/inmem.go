@@ -22,8 +22,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/util"
 )
 
 // New returns an empty in-memory store.

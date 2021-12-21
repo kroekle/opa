@@ -15,10 +15,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/internal/version"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/util"
 )
 
 const (

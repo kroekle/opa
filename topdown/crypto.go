@@ -21,10 +21,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/jwx/jwk"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/jwx/jwk"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/util"
 )
 
 const (

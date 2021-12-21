@@ -5,9 +5,9 @@
 package topdown
 
 import (
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
+	"github.com/kroekle/opa/types"
 )
 
 func builtinObjectUnion(_ BuiltinContext, operands []*ast.Term, iter func(*ast.Term) error) error {

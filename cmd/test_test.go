@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/kroekle/opa/rego"
+	"github.com/kroekle/opa/topdown"
 )
 
 func TestFilterTraceDefault(t *testing.T) {

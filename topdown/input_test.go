@@ -7,7 +7,7 @@ package topdown
 import (
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func TestMergeTermWithValues(t *testing.T) {

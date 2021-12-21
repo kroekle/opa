@@ -23,22 +23,22 @@ import (
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/config"
-	"github.com/open-policy-agent/opa/internal/distributedtracing"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	pluginBundle "github.com/open-policy-agent/opa/plugins/bundle"
-	pluginStatus "github.com/open-policy-agent/opa/plugins/status"
-	"github.com/open-policy-agent/opa/server/authorizer"
-	"github.com/open-policy-agent/opa/server/identifier"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/server/writer"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	"github.com/kroekle/opa/config"
+	"github.com/kroekle/opa/internal/distributedtracing"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/plugins"
+	pluginBundle "github.com/kroekle/opa/plugins/bundle"
+	pluginStatus "github.com/kroekle/opa/plugins/status"
+	"github.com/kroekle/opa/server/authorizer"
+	"github.com/kroekle/opa/server/identifier"
+	"github.com/kroekle/opa/server/types"
+	"github.com/kroekle/opa/server/writer"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 type tr struct {
@@ -1596,13 +1596,13 @@ func TestParsePatchPathEscaped(t *testing.T) {
 		{ // not strictly correct but included for backwards compatibility with existing OPA
 			note:         "url-escaped forward slash",
 			path:         "/github.com%2Fopen-policy-agent",
-			expectedPath: storage.Path{"github.com/open-policy-agent"},
+			expectedPath: storage.Path{"github.com/kroekle"},
 			expectedOK:   true,
 		},
 		{
 			note:         "json-pointer-escaped forward slash",
 			path:         "/github.com~1open-policy-agent",
-			expectedPath: storage.Path{"github.com/open-policy-agent"},
+			expectedPath: storage.Path{"github.com/kroekle"},
 			expectedOK:   true,
 		},
 		{

@@ -9,10 +9,10 @@ import (
 	"io"
 	"strings"
 
-	iStrs "github.com/open-policy-agent/opa/internal/strings"
+	iStrs "github.com/kroekle/opa/internal/strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
 )
 
 const (

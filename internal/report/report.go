@@ -12,15 +12,15 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/kroekle/opa/keys"
+	"github.com/kroekle/opa/logging"
 
 	"os"
 	"time"
 
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/plugins/rest"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 // ExternalServiceURL is the base HTTP URL for a telemetry service.

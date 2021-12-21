@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/format"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestDoMoveRenamePackage(t *testing.T) {

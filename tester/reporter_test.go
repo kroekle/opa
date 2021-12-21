@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/util"
 )
 
 func getFakeTraceEvents() []*topdown.Event {

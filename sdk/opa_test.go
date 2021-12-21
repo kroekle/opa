@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/fortytw2/leaktest"
-	loggingtest "github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/sdk"
-	sdktest "github.com/open-policy-agent/opa/sdk/test"
-	"github.com/open-policy-agent/opa/version"
+	loggingtest "github.com/kroekle/opa/logging/test"
+	"github.com/kroekle/opa/plugins"
+	"github.com/kroekle/opa/sdk"
+	sdktest "github.com/kroekle/opa/sdk/test"
+	"github.com/kroekle/opa/version"
 )
 
 // Plugin creates an empty plugin to test plugin initialization and shutdown

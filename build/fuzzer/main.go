@@ -3,7 +3,7 @@ package fuzz
 import (
 	"bytes"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 var blacklist = []string{}

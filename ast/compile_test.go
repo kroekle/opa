@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util"
 )
 
 func TestOutputVarsForNode(t *testing.T) {

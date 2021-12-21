@@ -11,10 +11,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/kroekle/opa/topdown"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cover"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/cover"
 )
 
 // Reporter defines the interface for reporting test results.

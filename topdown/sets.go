@@ -5,8 +5,8 @@
 package topdown
 
 import (
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/topdown/builtins"
 )
 
 // Deprecated in v0.4.2 in favour of minus/infix "-" operation.

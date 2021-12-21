@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cover"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/tester"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/cover"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/tester"
+	"github.com/kroekle/opa/topdown"
+	"github.com/kroekle/opa/types"
+	"github.com/kroekle/opa/util/test"
 )
 
 func TestRunner_EnableFailureLine(t *testing.T) {

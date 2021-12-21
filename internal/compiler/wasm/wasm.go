@@ -13,16 +13,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/compiler/wasm/opa"
-	"github.com/open-policy-agent/opa/internal/debug"
-	"github.com/open-policy-agent/opa/internal/ir"
-	"github.com/open-policy-agent/opa/internal/wasm/encoding"
-	"github.com/open-policy-agent/opa/internal/wasm/instruction"
-	"github.com/open-policy-agent/opa/internal/wasm/module"
-	"github.com/open-policy-agent/opa/internal/wasm/types"
-	"github.com/open-policy-agent/opa/internal/wasm/util"
-	opatypes "github.com/open-policy-agent/opa/types"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/internal/compiler/wasm/opa"
+	"github.com/kroekle/opa/internal/debug"
+	"github.com/kroekle/opa/internal/ir"
+	"github.com/kroekle/opa/internal/wasm/encoding"
+	"github.com/kroekle/opa/internal/wasm/instruction"
+	"github.com/kroekle/opa/internal/wasm/module"
+	"github.com/kroekle/opa/internal/wasm/types"
+	"github.com/kroekle/opa/internal/wasm/util"
+	opatypes "github.com/kroekle/opa/types"
 )
 
 // Record Wasm ABI version in exported global variable

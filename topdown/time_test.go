@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/kroekle/opa/ast"
 )
 
 func TestTimeSeeding(t *testing.T) {

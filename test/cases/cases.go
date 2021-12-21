@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 )
 
 // Set represents a collection of test cases.

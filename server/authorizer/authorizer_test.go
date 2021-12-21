@@ -13,12 +13,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/server/identifier"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown/print"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/server/identifier"
+	"github.com/kroekle/opa/server/types"
+	"github.com/kroekle/opa/storage/inmem"
+	"github.com/kroekle/opa/topdown/print"
+	"github.com/kroekle/opa/util"
 )
 
 type mockHandler struct {

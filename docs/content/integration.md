@@ -174,7 +174,7 @@ package to embed OPA as a library inside services written in Go. To get started
 import the `rego` package:
 
 ```go
-import "github.com/open-policy-agent/opa/rego"
+import "github.com/kroekle/opa/rego"
 ```
 
 The `rego` package exposes different options for customizing how policies are
@@ -295,7 +295,7 @@ inside of Go programs and obtaining the output of query evaluation. To get start
 import the `sdk` package:
 
 ```go
-import "github.com/open-policy-agent/opa/sdk"
+import "github.com/kroekle/opa/sdk"
 ```
 
 A typical workflow when using the `sdk` package would involve first creating a new `sdk.OPA` object by calling
@@ -312,8 +312,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/open-policy-agent/opa/sdk"
-	sdktest "github.com/open-policy-agent/opa/sdk/test"
+	"github.com/kroekle/opa/sdk"
+	sdktest "github.com/kroekle/opa/sdk/test"
 )
 
 func main() {

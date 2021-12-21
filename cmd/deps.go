@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-policy-agent/opa/dependencies"
-	"github.com/open-policy-agent/opa/internal/presentation"
+	"github.com/kroekle/opa/dependencies"
+	"github.com/kroekle/opa/internal/presentation"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/loader"
+	"github.com/kroekle/opa/util"
 )
 
 type depsCommandParams struct {

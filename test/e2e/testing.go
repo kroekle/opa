@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/uuid"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/runtime"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/internal/uuid"
+	"github.com/kroekle/opa/logging"
+	"github.com/kroekle/opa/logging/test"
+	"github.com/kroekle/opa/runtime"
+	"github.com/kroekle/opa/server/types"
+	"github.com/kroekle/opa/util"
 )
 
 const (

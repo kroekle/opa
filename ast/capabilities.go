@@ -8,8 +8,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa/capabilities"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/internal/wasm/sdk/opa/capabilities"
+	"github.com/kroekle/opa/util"
 )
 
 // Capabilities defines a structure containing data that describes the capablilities

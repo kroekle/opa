@@ -12,12 +12,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	storedversion "github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/bundle"
+	storedversion "github.com/kroekle/opa/internal/version"
+	"github.com/kroekle/opa/loader"
+	"github.com/kroekle/opa/metrics"
+	"github.com/kroekle/opa/storage"
 )
 
 // InsertAndCompileOptions contains the input for the operation.

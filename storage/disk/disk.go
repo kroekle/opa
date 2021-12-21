@@ -61,8 +61,8 @@ import (
 	"sync/atomic"
 
 	badger "github.com/dgraph-io/badger/v3"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/storage"
+	"github.com/kroekle/opa/util"
 )
 
 // TODO(tsandall): deal w/ slashes in paths

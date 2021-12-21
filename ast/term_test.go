@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/kroekle/opa/util"
 )
 
 func TestInterfaceToValue(t *testing.T) {

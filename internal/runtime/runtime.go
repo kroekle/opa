@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/kroekle/opa/ast"
+	"github.com/kroekle/opa/util"
+	"github.com/kroekle/opa/version"
 )
 
 // Params controls the types of runtime information to return.
