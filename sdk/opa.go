@@ -479,7 +479,7 @@ func partial(ctx context.Context, args partialEvalArgs) (interface{}, ast.Value,
 		rego.Store(args.store),
 		rego.Transaction(args.txn),
 		rego.Runtime(args.runtime),
-		rego.ParsedInput(inputAST),
+		rego.Input(args.input),
 		rego.Query(args.query),
 		rego.Unknowns(args.unknowns),
 	)
