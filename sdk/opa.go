@@ -221,6 +221,7 @@ func (opa *OPA) Partial(ctx context.Context, options PartialOptions) (*DecisionR
 		Timestamp:  options.Now,
 		//		Path:       options.Path,
 		Input:   &options.Input,
+		Query:   options.Query,
 		Metrics: m,
 	}
 
@@ -242,6 +243,7 @@ func (opa *OPA) Partial(ctx context.Context, options PartialOptions) (*DecisionR
 			store:    s.manager.Store,
 			txn:      record.Txn,
 			now:      record.Timestamp,
+			query:    record.Query,
 			// path:            record.Path,
 			input: *record.Input,
 			m:     record.Metrics,
@@ -337,7 +339,8 @@ type PartialOptions struct {
 	Now time.Time // specifies wallclock time used for time.now_ns(), decision log timestamp, etc.
 	//	Path  		string      // specifies name of policy decision to evaluate (e.g., example/allow)
 	Input    interface{} // specifies value of the input document to evaluate policy with
-	Unknowns []string    // specifies the unknown elements of the query
+	Query    string
+	Unknowns []string // specifies the unknown elements of the query
 }
 
 // DecisionResult contains the output of query evaluation.
